@@ -12,7 +12,7 @@ app.use(bodyParser.json());
 // Firebase Admin SDK initialization
 firebase.initializeApp({
   credential: firebase.credential.cert(serviceAccount),
-  databaseURL: "https://<your-database-name>.firebaseio.com"
+   databaseURL: "https://my-todo-app.firebaseio.com" "
 });
 
 // Routes
